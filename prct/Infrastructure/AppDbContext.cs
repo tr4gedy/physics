@@ -19,7 +19,9 @@ namespace prct.Infrastructure
         {
             optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=prct;Username=postgres;Password=sa");
         }
-
+        /// <summary>
+        /// Создание модели базы данных
+        /// </summary>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Topics>()

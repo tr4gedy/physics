@@ -24,7 +24,9 @@ namespace prct.Views
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Логика удаления темы
+        /// </summary>
         private async void DeleteBtn_Click(object sender, RoutedEventArgs e)
         {
             var id = idText.Text;

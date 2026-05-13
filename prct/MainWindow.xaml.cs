@@ -22,26 +22,34 @@ namespace prct
             
             DataContext = new MainViewModel();
         }
-
+        /// <summary>
+        /// Логика перехода в окно добавления темы
+        /// </summary>
         private void AddTopic_Click(object sender, RoutedEventArgs e)
         {
             var addTopicWindow = new AddTopicWindow();
             addTopicWindow.Show();
             
         }
-
+        /// <summary>
+        /// Логика перехода в окно удаления темы
+        /// </summary>
         private void DeleteTopic_Click(object sender, RoutedEventArgs e)
         {
             var deleteTopicWindow = new DeleteTopicWindow();
             deleteTopicWindow.Show();
         }
-
+        /// <summary>
+        /// Логика перехода в окно калькулятора ампера
+        /// </summary>
         private void Amper_Click(object sender, RoutedEventArgs e)
         {
             var amperWindow = new AmperWindow();
             amperWindow.Show();
         }
-
+        /// <summary>
+        /// Логика перехода в окно калькулятора ома
+        /// </summary>
         private void Om_Click(object sender, RoutedEventArgs e)
         {
             var omWindow = new OmWindow();

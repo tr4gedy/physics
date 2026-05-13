@@ -23,8 +23,10 @@ namespace prct.Views
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Логика для конвертации в амперы
+        /// </summary>
+        private void GetAmper_Click(object sender, RoutedEventArgs e)
         {
             var num = Convert.ToDouble(numText.Text);
             var choice = amComboBox.SelectedIndex;
@@ -38,11 +40,7 @@ namespace prct.Views
                 MessageBox.Show("Число должно быть больше нуля.");
                 return;
             }
-            if (choice != 0 || choice != 1 || choice !=2 )
-            {
-                MessageBox.Show("Выберите что-то из комбо бокса.");
-                return;
-            }
+          
             if(choice == 0)
             {
                 num *= 1000;
