@@ -26,9 +26,15 @@ namespace prct.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+           
             var u = Convert.ToDouble(uText.Text);
             var r = Convert.ToDouble(rText.Text);
             var i = u / r;
+            if (double.IsNegative(u) || double.IsNegative(r))
+            {
+                MessageBox.Show("Числа не должны быть отрицательными");
+                return;
+            }
             iText.Text = Convert.ToString(i);
         }
 
@@ -37,6 +43,11 @@ namespace prct.Views
             var r1 = Convert.ToDouble(r1Text.Text);
             var i1 = Convert.ToDouble(i1Text.Text);
             var u1 = r1 * i1;
+            if (double.IsNegative(r1) || double.IsNegative(i1))
+            {
+                MessageBox.Show("Числа не должны быть отрицательными");
+                return;
+            }
             u1Text.Text = Convert.ToString(u1);
         }
 
@@ -45,6 +56,11 @@ namespace prct.Views
             var u2 = Convert.ToDouble(u2Text.Text);
             var i2 = Convert.ToDouble(i2Text.Text);
             var r2 = u2 / i2;
+            if (double.IsNegative(u2) || double.IsNegative(i2))
+            {
+                MessageBox.Show("Числа не должны быть отрицательными");
+                return;
+            }
             r2Text.Text = Convert.ToString(r2);
         }
     }

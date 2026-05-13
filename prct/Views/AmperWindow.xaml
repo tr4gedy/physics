@@ -5,21 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:prct.Views"
         mc:Ignorable="d"
-        Title="AmperWindow" Height="450" Width="800">
+        Title="AmperWindow" Height="200" Width="350"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="25*"/>
-            <RowDefinition Height="78*"/>
-            <RowDefinition Height="32*"/>
-            <RowDefinition Height="82*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="66*"/>
+            <RowDefinition Height="45*"/>
+      
         </Grid.RowDefinitions>
-        <StackPanel HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Top" Margin="0,21,0,0">
-        
-            <ComboBox x:Name="amComboBox" Width="100" Height="30">
+        <StackPanel Orientation="Vertical" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Калькулятор Ампера" FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation ="Horizontal" HorizontalAlignment="Center" Grid.Row="1" >
+            <TextBox Width="50" Height="30" x:Name="numText" VerticalContentAlignment="Center"/>
+            <ComboBox x:Name="amComboBox" Width="50" Height="30" >
                 <ComboBoxItem Content="кА"></ComboBoxItem>
                 <ComboBoxItem Content="мА"></ComboBoxItem>
                 <ComboBoxItem Content="мкА"></ComboBoxItem>
             </ComboBox>
+            <Label Content=" = " FontSize="16" Height="30"/>
+            <TextBox Width="50" Height="30" IsReadOnly="True" x:Name="answText" VerticalContentAlignment="Center"/>
+            <Label Content=" A" VerticalAlignment="Center" Height="30" FontSize="16"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Button Content="Посчитать" Height="30" Width="100" FontSize="16" Click="Button_Click"/>
         </StackPanel>
     </Grid>
 </Window>

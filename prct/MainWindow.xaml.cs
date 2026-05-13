@@ -38,7 +38,8 @@ namespace prct
 
         private void Amper_Click(object sender, RoutedEventArgs e)
         {
-
+            var amperWindow = new AmperWindow();
+            amperWindow.Show();
         }
 
         private void Om_Click(object sender, RoutedEventArgs e)

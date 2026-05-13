@@ -23,5 +23,42 @@ namespace prct.Views
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var num = Convert.ToDouble(numText.Text);
+            var choice = amComboBox.SelectedIndex;
+            if (num == null)
+            {
+                MessageBox.Show("Введите значение.");
+                return;
+            }
+            if (num < 0)
+            {
+                MessageBox.Show("Число должно быть больше нуля.");
+                return;
+            }
+            if (choice != 0 || choice != 1 || choice !=2 )
+            {
+                MessageBox.Show("Выберите что-то из комбо бокса.");
+                return;
+            }
+            if(choice == 0)
+            {
+                num *= 1000;
+                answText.Text = num.ToString();
+            }
+            else if(choice == 1)
+            {
+                num *= 0.001;
+                answText.Text = num.ToString();
+            }
+            else if (choice == 2)
+            {
+                num *= 0.000001;
+                answText.Text = num.ToString();
+            }
+            
+        }
     }
 }
