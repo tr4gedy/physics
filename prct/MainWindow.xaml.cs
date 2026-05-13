@@ -35,5 +35,16 @@ namespace prct
             var deleteTopicWindow = new DeleteTopicWindow();
             deleteTopicWindow.Show();
         }
+
+        private void Amper_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Om_Click(object sender, RoutedEventArgs e)
+        {
+            var omWindow = new OmWindow();
+            omWindow.Show();
+        }
     }
 }

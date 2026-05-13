@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Student\\Desktop\\TDE\\prct\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\deletetopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\deletetopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\omwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\omwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\addtopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\addtopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\addtopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\addtopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\omwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\omwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,11 +19,16 @@
       "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\deletetopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\deletetopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\amperwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\amperwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\prct.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\prct.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\deletetopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\deletetopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,6 +41,21 @@
     {
       "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\addtopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\addtopicwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\addtopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\addtopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\views\\deletetopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|solutionrelative:prct\\views\\deletetopicwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93537495-854C-4E9B-9C33-F3FE7B506C08}|prct\\prct.csproj|c:\\users\\student\\desktop\\tde\\prct\\prct\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,19 +78,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OmWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\OmWindow.xaml.cs",
+              "RelativeDocumentMoniker": "prct\\Views\\OmWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\OmWindow.xaml.cs*",
+              "RelativeToolTip": "prct\\Views\\OmWindow.xaml.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T10:16:34.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OmWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\OmWindow.xaml",
+              "RelativeDocumentMoniker": "prct\\Views\\OmWindow.xaml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\OmWindow.xaml*",
+              "RelativeToolTip": "prct\\Views\\OmWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T09:16:03.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AmperWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\AmperWindow.xaml",
+              "RelativeDocumentMoniker": "prct\\Views\\AmperWindow.xaml",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\AmperWindow.xaml",
+              "RelativeToolTip": "prct\\Views\\AmperWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T09:15:04.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "prct",
+              "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\prct.csproj",
+              "RelativeDocumentMoniker": "prct\\prct.csproj",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\prct.csproj",
+              "RelativeToolTip": "prct\\prct.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-13T08:26:16.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DeleteTopicWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\DeleteTopicWindow.xaml.cs",
               "RelativeDocumentMoniker": "prct\\Views\\DeleteTopicWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\DeleteTopicWindow.xaml.cs*",
-              "RelativeToolTip": "prct\\Views\\DeleteTopicWindow.xaml.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwCgAAABGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\DeleteTopicWindow.xaml.cs",
+              "RelativeToolTip": "prct\\Views\\DeleteTopicWindow.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T08:10:03.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "DeleteTopicWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\DeleteTopicWindow.xaml",
               "RelativeDocumentMoniker": "prct\\Views\\DeleteTopicWindow.xaml",
@@ -90,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -102,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "AddTopicWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\AddTopicWindow.xaml.cs",
               "RelativeDocumentMoniker": "prct\\Views\\AddTopicWindow.xaml.cs",
@@ -115,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "AddTopicWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Views\\AddTopicWindow.xaml",
               "RelativeDocumentMoniker": "prct\\Views\\AddTopicWindow.xaml",
@@ -127,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\MainWindow.xaml",
               "RelativeDocumentMoniker": "prct\\MainWindow.xaml",
@@ -147,11 +212,12 @@
               "RelativeToolTip": "prct\\ViewModel\\MainViewModel.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T09:31:22.253Z"
+              "WhenOpened": "2026-05-12T09:31:22.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "prct\\AssemblyInfo.cs",
@@ -163,20 +229,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "prct\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\MainWindow.xaml.cs",
               "RelativeToolTip": "prct\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAIwB0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T07:22:36.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\App.xaml",
               "RelativeDocumentMoniker": "prct\\App.xaml",
@@ -194,9 +260,10 @@
               "RelativeDocumentMoniker": "prct\\Infrastructure\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Student\\Desktop\\TDE\\prct\\prct\\Infrastructure\\AppDbContext.cs",
               "RelativeToolTip": "prct\\Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T07:37:59.806Z"
+              "WhenOpened": "2026-05-12T07:37:59.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -208,7 +275,8 @@
               "RelativeToolTip": "prct\\Models\\Topics.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T07:24:50.883Z"
+              "WhenOpened": "2026-05-12T07:24:50.883Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -5,7 +5,13 @@
     <Compile Update="Views\AddTopicWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\AmperWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\DeleteTopicWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\OmWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

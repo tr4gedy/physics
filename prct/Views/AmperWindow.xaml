@@ -1,0 +1,25 @@
+﻿<Window x:Class="prct.Views.AmperWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prct.Views"
+        mc:Ignorable="d"
+        Title="AmperWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="78*"/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="82*"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Top" Margin="0,21,0,0">
+        
+            <ComboBox x:Name="amComboBox" Width="100" Height="30">
+                <ComboBoxItem Content="кА"></ComboBoxItem>
+                <ComboBoxItem Content="мА"></ComboBoxItem>
+                <ComboBoxItem Content="мкА"></ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</Window>

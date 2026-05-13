@@ -1,0 +1,127 @@
+﻿<Window x:Class="prct.Views.OmWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prct.Views"
+        mc:Ignorable="d"
+        Title="OmWindow" Height="450" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="64*"/>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="105*"/>
+
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label Content="Калькулятор Ома" 
+                   VerticalAlignment="Top" 
+                   HorizontalAlignment="Center"
+                   Height="40"
+                   FontSize="20"/>
+
+        </StackPanel>
+        <StackPanel Orientation ="Horizontal" Grid.Row="1"  VerticalAlignment="Bottom" >
+            <Label Content="                        U:         R:          I:"
+            FontSize="16"
+            Height="30" Width="246" 
+            HorizontalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="2">
+
+            <TextBox Width="30"
+                     x:Name="uText"
+                     FontSize="16" 
+                     VerticalContentAlignment="Center"
+                     Height="30"/>
+            <Label Content=" /"
+                   FontSize="16"
+                   Height="30"/>
+
+            <TextBox Width="30"
+                     x:Name="rText"
+                     FontSize="16" 
+                     VerticalContentAlignment="Center"
+                     Height="30"/>
+            <Label Content=" ="
+                   FontSize="16"
+                   Height="30"/>
+            <TextBox Width="30"
+                     x:Name="iText"
+                     FontSize="16" 
+                     VerticalContentAlignment="Center"
+                     Height="30"
+                     IsReadOnly="True"/>
+            <Button Content="Посчитать" Width="100" Height="30" Margin="5,0,5,0" Click="Button_Click"/>
+        </StackPanel>
+        <StackPanel Orientation ="Horizontal" Grid.Row="3"   VerticalAlignment="Top" Height="30" Margin="0,9,0,0"  >
+            <Label Content="                        I:         R:          U:"
+    FontSize="16"
+    Height="30" Width="246" 
+    HorizontalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="4" Margin="0,1,0,10" Width="246">
+
+            <TextBox Width="30" 
+                     x:Name="i1Text"
+              FontSize="16" 
+              VerticalContentAlignment="Center"
+              Height="30"/>
+            <Label Content=" *"
+            FontSize="16"
+            Height="30"/>
+
+            <TextBox Width="30" 
+                     x:Name="r1Text"
+              FontSize="16" 
+              VerticalContentAlignment="Center"
+              Height="30"/>
+            <Label Content=" ="
+            FontSize="16"
+            Height="30"/>
+            <TextBox Width="30"
+                     x:Name="u1Text"
+              FontSize="16" 
+              VerticalContentAlignment="Center"
+              Height="30"
+                     IsReadOnly="True"/>
+            <Button Content="Посчитать" Width="100" Height="30" Margin="5,0,5,0" Click="Button_Click_1"/>
+        </StackPanel>
+        <StackPanel Orientation ="Horizontal" Grid.Row="5"   VerticalAlignment="Top" Height="32" Margin="0,20,0,0" >
+            <Label Content="                        U:         I:          R:"
+            FontSize="16"
+            Height="32" Width="246"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="6" Height="30" Margin="0,2,0,0" Width="246">
+
+            <TextBox Width="30" 
+          FontSize="16" 
+          VerticalContentAlignment="Center"
+          Height="30"
+                     x:Name="u2Text"/>
+            <Label Content=" /"
+                    FontSize="16"
+                    Height="30"/>
+            <TextBox Width="30" 
+                      FontSize="16" 
+                      VerticalContentAlignment="Center"
+                      Height="30"
+                      x:Name="i2Text"/>
+            <Label Content=" ="
+                    FontSize="16"
+                    Height="30"/>
+            <TextBox Width="30" 
+                      FontSize="16" 
+                      VerticalContentAlignment="Center"
+                      Height="30"
+                     x:Name="r2Text"
+                      IsReadOnly="True"/>
+            <Button Content="Посчитать" Width="100" Height="30" Margin="5,0,5,0" Click="Button_Click_2"/>
+        </StackPanel>
+    </Grid>
+
+</Window>
