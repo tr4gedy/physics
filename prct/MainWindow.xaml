@@ -28,7 +28,7 @@
             <Button x:Name="DeleteTopicAsync"
                     Content="Удалить" 
                     Height="20" 
-                    Width="100"/>
+                    Width="100" Click="DeleteTopic_Click"/>
         </StackPanel>
     </Grid>
 </Window>

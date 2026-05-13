@@ -27,6 +27,13 @@ namespace prct
         {
             var addTopicWindow = new AddTopicWindow();
             addTopicWindow.Show();
+            
+        }
+
+        private void DeleteTopic_Click(object sender, RoutedEventArgs e)
+        {
+            var deleteTopicWindow = new DeleteTopicWindow();
+            deleteTopicWindow.Show();
         }
     }
 }

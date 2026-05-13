@@ -78,6 +78,7 @@ namespace prct.Views
             {
                 MessageBox.Show($"Неожиданная ошибка: {ex.Message}");
             }
+            
         }
     }
 }
