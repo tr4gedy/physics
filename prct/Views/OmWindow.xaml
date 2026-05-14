@@ -5,15 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:prct.Views"
         mc:Ignorable="d"
-        Title="OmWindow" Height="450" Width="450">
+        Title="OmWindow" Height="350" Width="450">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="57*"/>
-            <RowDefinition Height="58*"/>
-            <RowDefinition Height="57*"/>
             <RowDefinition Height="39*"/>
-            <RowDefinition Height="64*"/>
-            <RowDefinition Height="54*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="39*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="32*"/>
             <RowDefinition Height="105*"/>
 
         </Grid.RowDefinitions>
@@ -25,8 +25,8 @@
                    FontSize="20"/>
 
         </StackPanel>
-        <StackPanel Orientation ="Horizontal" Grid.Row="1"  VerticalAlignment="Bottom" >
-            <Label Content="                        U:         R:          I:"
+        <StackPanel Orientation ="Horizontal" Grid.Row="1"  VerticalAlignment="Bottom">
+            <Label Content="                       U:         R:          I:"
             FontSize="16"
             Height="30" Width="246" 
             HorizontalAlignment="Center"/>
@@ -58,13 +58,13 @@
                      IsReadOnly="True"/>
             <Button Content="Посчитать" Width="100" Height="30" Margin="5,0,5,0" Click="GetI_Click"/>
         </StackPanel>
-        <StackPanel Orientation ="Horizontal" Grid.Row="3"   VerticalAlignment="Top" Height="30" Margin="0,9,0,0"  >
-            <Label Content="                        I:         R:          U:"
+        <StackPanel Orientation ="Horizontal" Grid.Row="3"   VerticalAlignment="Bottom">
+            <Label Content="                       I:         R:          U:"
     FontSize="16"
     Height="30" Width="246" 
     HorizontalAlignment="Center"/>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="4" Margin="0,1,0,10" Width="246">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="4">
 
             <TextBox Width="30" 
                      x:Name="i1Text"
@@ -91,12 +91,12 @@
                      IsReadOnly="True"/>
             <Button Content="Посчитать" Width="100" Height="30" Margin="5,0,5,0" Click="GetU_Click"/>
         </StackPanel>
-        <StackPanel Orientation ="Horizontal" Grid.Row="5"   VerticalAlignment="Top" Height="32" Margin="0,20,0,0" >
-            <Label Content="                        U:         I:          R:"
+        <StackPanel Orientation ="Horizontal" Grid.Row="5"   VerticalAlignment="Bottom" >
+            <Label Content="                       U:         I:          R:"
             FontSize="16"
             Height="32" Width="246"/>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="6" Height="30" Margin="0,2,0,0" Width="246">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="5" Height="30" Margin="0,31,0,0" Grid.RowSpan="2" Width="246">
 
             <TextBox Width="30" 
           FontSize="16" 
