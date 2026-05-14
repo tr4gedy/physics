@@ -26,26 +26,16 @@ namespace prct.Views
             InitializeComponent();
         }
 
-   
-
+        
+        /// <summary>
+        /// Логика добавления новой темы
+        /// </summary>
         private async void AddBtn_Click(object sender, RoutedEventArgs e)
         {
             var desc = descriptionText.Text;
             var name = nameText.Text;
 
-            if (string.IsNullOrWhiteSpace(name))
-            {
-                MessageBox.Show("Пожалуйста, введите название темы.");
-                return;
-            }
-            if (name.Length > 25)
-            {
-                MessageBox.Show("Название не может быть больше 25 символов");
-                return;
-            }
-            if (desc.Length > 250) {
-                MessageBox.Show("Описание не может быть больше 25 символов");
-            }
+            
             try
             {
                 string connectionString = "Host=localhost;Port=5432;Database=prct;Username=postgres;Password=sa";
