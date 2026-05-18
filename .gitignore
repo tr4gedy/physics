@@ -23,7 +23,7 @@ mono_crash.*
 
 [Dd]ebug/x64/
 [Dd]ebugPublic/x64/
-
+!Release/
 bin/x64/
 obj/x64/
 
