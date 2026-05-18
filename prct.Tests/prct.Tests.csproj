@@ -17,6 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="prct.Features">
+      <HintPath>..\prct.Features\bin\Release\net8.0\prct.Features.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

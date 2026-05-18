@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Xml.Linq;
-
-namespace prct.Features
+﻿namespace prct.Features
 {
-    public class General
+    
+    public class Validation
     {
         /// <summary>
         /// Логика валидации отрицательного числа
@@ -17,7 +10,6 @@ namespace prct.Features
         {
             if (value < 0)
             {
-                MessageBox.Show("Число не должно быть отрицательными.");
                 return true;
             }
             else
@@ -30,12 +22,15 @@ namespace prct.Features
         /// </summary>
         public static bool isNull(double val)
         {
+            string err;
             if (val == null)
             {
-                MessageBox.Show("Введите значение.");
                 return true;
             }
-            return false;
+            else
+            {
+                return false;
+            }
         }
         /// <summary>
         /// Логика валидации числа на наличие значения
@@ -44,21 +39,26 @@ namespace prct.Features
         {
             if (val == 0)
             {
-                MessageBox.Show("Число не может быть нулем.");
                 return true;
             }
-            return false;
+            else
+            {
+                return false;
+            }
         }
         /// <summary>
         /// Логика валидации отсутсвия названия
         /// </summary>
-        public static bool isEmptyName(string name) {
-            if (string.IsNullOrWhiteSpace(name))
+        public static bool isEmptyName(string str)
+        {
+            string err;
+            if (string.IsNullOrWhiteSpace(str))
             {
-                MessageBox.Show("Название не может быть пустым");
                 return true;
             }
-            return false;
+            else { 
+                return false;
+            }
         }
         /// <summary>
         /// Логика валидации превышаюшего размера текста
@@ -67,10 +67,12 @@ namespace prct.Features
         {
             if (str.Length > maxLenght)
             {
-                MessageBox.Show($"Название не может быть больше {maxLenght} символов");
                 return true;
             }
-            return false;
+            else
+            {
+                return false;
+            }
         }
     }
 }

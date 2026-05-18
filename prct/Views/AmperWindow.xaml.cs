@@ -21,7 +21,7 @@ namespace prct.Views
         private double GetAmper(ref double num, int choice)
         {
           
-            if (!General.isNegative(num) && !General.isNull(num))
+            if (!Validation.isNegative(num) && !Validation.isNull(num))
             {
                 switch (choice)
                 {
@@ -46,6 +46,7 @@ namespace prct.Views
             }
             else
             {
+                MessageBox.Show("Некорректное число.");
                 return -1;
             }
         }

@@ -22,12 +22,15 @@ namespace prct.Views
 
             var u = Convert.ToDouble(uText.Text);
             var r = Convert.ToDouble(rText.Text);
-            if (!General.isNegative(u) && !General.isNegative(r) && !General.isZero(r)) {
+            if (!Validation.isNegative(u) && !Validation.isNegative(r) && !Validation.isZero(r)) {
             
                 var i = u / r;
                 iText.Text = Convert.ToString(i);
             }
-
+            else
+            {
+                MessageBox.Show("Некорректное число");
+            }
         }
         /// <summary>
         /// Логика нахождения U посредством умножения I на R
@@ -36,11 +39,15 @@ namespace prct.Views
         {
             var r1 = Convert.ToDouble(r1Text.Text);
             var i1 = Convert.ToDouble(i1Text.Text);
-            if (!General.isNegative(r1) && !General.isNegative(i1))
+            if (!Validation.isNegative(r1) && !Validation.isNegative(i1))
             {
 
                 var u1 = r1 * i1;
                 u1Text.Text = Convert.ToString(u1);
+            }
+            else
+            {
+                MessageBox.Show("Число не может быть отрицательным");
             }
         }
         /// <summary>
@@ -50,13 +57,14 @@ namespace prct.Views
         {
             var u2 = Convert.ToDouble(u2Text.Text);
             var i2 = Convert.ToDouble(i2Text.Text);
-            if (!General.isNegative(u2) && !General.isNegative(i2) && !General.isZero(i2))
-            {
+            if (!Validation.isNegative(u2) && !Validation.isNegative(i2) && !Validation.isZero(i2))
+            {   
 
                 var r2 = u2 / i2;
                 r2Text.Text = Convert.ToString(r2);
  
-            }      
+            }
+            MessageBox.Show("Некорректное число");
         }
     }
 }
